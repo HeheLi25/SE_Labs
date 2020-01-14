@@ -1,3 +1,4 @@
+package week1;
 import java.io.PrintStream;
 
 public class Worker extends Person{
