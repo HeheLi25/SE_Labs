@@ -39,6 +39,7 @@ public class Lop {
 	public void print(PrintStream ps) {
 		for(int i = 0; i < num; i++) {
 			people[i].print(ps);
+			ps.println();
 		}
 	}
 }

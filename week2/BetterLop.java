@@ -19,6 +19,7 @@ public class BetterLop {
 	public void print(PrintStream ps) {
 		for(Person temp : people) {
 			temp.print(ps);
+			ps.println();
 		}
 	}
 
