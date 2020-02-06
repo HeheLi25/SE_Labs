@@ -1,7 +1,7 @@
-package week2;
+package week2.People;
 import java.io.PrintStream;
 
-public class Date {
+public class Date implements Cloneable{
 	private int day;
 	private int month;
 	private int year;
@@ -46,6 +46,16 @@ public class Date {
 	}
 	public int getYear() {
 		return year;
+	}
+	
+	public Object clone() {
+		Object o = null;
+		try {
+			o = super.clone();
+		} catch (CloneNotSupportedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}return o;
 	}
 	
 	

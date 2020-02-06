@@ -1,13 +1,13 @@
-package week2;
+package week2.People;
 import java.io.PrintStream;
 
 public class Person {
 	private String name;
 	private Date dob;
 	//constructor
-	public Person(String name, Date dob) {
+	public Person(String name, Date d) {
 		this.name = name;
-		this.dob = dob;
+		this.dob = (Date) d.clone();
 	}
 	//methods
 	public void print(PrintStream ps) {

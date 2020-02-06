@@ -1,7 +1,10 @@
-package week2;
+package week2.Office;
 
 import java.io.PrintStream;
 import java.util.ArrayList;
+
+import week2.People.Date;
+import week2.People.Person;
 
 public class Worker extends Person{
 	private Boss boss;

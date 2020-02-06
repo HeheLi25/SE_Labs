@@ -1,4 +1,10 @@
 package week2;
+
+import week2.Office.Boss;
+import week2.Office.Worker;
+import week2.People.BetterLop;
+import week2.People.Date;
+
 public class Test {
 
 	public static void main(String[] args) {

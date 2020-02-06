@@ -1,4 +1,4 @@
-package week2;
+package week2.People;
 
 import java.io.PrintStream;
 
